@@ -95,6 +95,12 @@ p.desc-guide:before, .desc-guide > li:before {content:'';position:absolute;left:
 
 .txt-temp {padding:20px;line-height:100px;border:1px solid #797979;}
 
+/* 강조 텍스트 */
+.ex{display:inline-block;margin:0.6rem 0 1rem 0;padding:0 0.4rem;font-size:14px;line-height:18px;background:#bfeefb;border-radius:0.2rem;}
+.accent{display:inline-block;padding:0 0.2rem;line-height:14px;background:#fbeab1;}
+.link{margin-right:2px;color:#549ac8;text-decoration:underline;}
+.ex .link{color:#19658c;}
+
 /* 탭 */
 .tab-guide {margin:20px 0;padding:2px 0;overflow:hidden;width: 100%;border-top:1px solid #333;border-bottom:1px solid #333;}
 .tab-guide > li {box-sizing:border-box;display:block;float:left;margin-bottom:1px;padding:0 1px 0 0;width:25%;}
@@ -108,7 +114,7 @@ p.desc-guide:before, .desc-guide > li:before {content:'';position:absolute;left:
 	CONTENT 공통 : 테이블유형1
 --------------------------------------------------------- */
 /* 기본  */
-.tbl-data1 {overflow:hidden;width:100%;margin:5px 0 0;border:1px solid #a7a7a7;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.tbl-data1 {overflow:hidden;width:100%;margin:10px 0 20px;border:1px solid #a7a7a7;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 .tbl-data1 table {width:100%;table-layout:fixed;}
 .tbl-data1 table th, .tbl-data1 table td {border-top:1px solid #dbdbdb;vertical-align:middle;text-align:left;line-height:13px;background:#fff;}
 .tbl-data1 table th {position:relative;height:26px;padding:0 5px;background-color:#f6f6f6;text-align:right;font-size:12px;line-height:13px;}
@@ -217,7 +223,10 @@ fieldset.guide legend {position:static !important;left:0 !important;top:0 !impor
 .tbl-data2 table td:nth-child(9) {width:300px;}
 .tbl-data2 table td:last-child {text-align:left;}
 .tbl-data2 table td a:hover {text-decoration:underline;}
-.url {}
+.tb > tbody b{color:#d5583a;}
+
+/* syntax */
+.tb .syntax {text-align:left;}
 
 @media (max-width: 768px) {
 	.count {text-align:left;}

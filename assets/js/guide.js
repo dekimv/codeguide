@@ -141,9 +141,17 @@ var ui;
 			/* 기본호출함수 */
 			//ui.navGnb();
 			ui.navAside();
+
+			/* load contents */
+			$("#load_header").load("header.html");
+			$("#load_navigation").load("nav.html");
+			$("#load_contents").load("contents.html");
+			$("#load_footer").load("footer.html");
 		}
 	});
 
 	$(document).ready(ui.init);
 
 } )(window, jQuery);
+
+
