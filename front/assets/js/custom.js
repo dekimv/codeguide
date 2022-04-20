@@ -104,19 +104,19 @@ var richnco = function(){
 				if($this.hasClass("cmt_file")){
 					$wrap = $this.wrap("<span class='file2'></span>").closest(".file2");
 					//placeholder = this.hasAttribute("placeholder") ? $this.attr("placeholder") : "선택된 파일 없음";
-					$wrap.prepend("<span class='value'>"+placeholder+"</span><button type='button' disabled class='btn-default-sm'><span>"+title+"</span></button>");
+					$wrap.prepend("<span class='value'>"+placeholder+"</span><button type='button' disabled class='btn_default_sm'><span>"+title+"</span></button>");
 				} else if($this.hasClass("cmt_file2")){
-					$wrap = $this.wrap("<span class='file3 btn-fileImg'></span>").closest(".file3");
+					$wrap = $this.wrap("<span class='file3 btn_fileImg'></span>").closest(".file3");
 					//placeholder = this.hasAttribute("placeholder") ? $this.attr("placeholder") : "선택된 파일 없음";
-					$wrap.prepend("<span class='value'>"+placeholder+"</span><button type='button' disabled class='btn-file-img'><span>"+title+"</span></button>");
+					$wrap.prepend("<span class='value'>"+placeholder+"</span><button type='button' disabled class='btn_file-img'><span>"+title+"</span></button>");
 				}else{
 					$wrap = $this.wrap("<span class='file'></span>").closest(".file");
 					//placeholder = this.hasAttribute("placeholder") ? $this.attr("placeholder") : "선택된 파일 없음";
-					$wrap.prepend("<span class='value'>"+placeholder+"</span><button type='button' disabled class='btn-default'><span>"+title+"</span></button>");
+					$wrap.prepend("<span class='value'>"+placeholder+"</span><button type='button' disabled class='btn_default'><span>"+title+"</span></button>");
 				}
 				if (this.hasAttribute("style")) $wrap.width($this.outerWidth());
-				if (this.hasAttribute("data-btn-type")) $wrap.addClass("btn-type");
-				if (this.hasAttribute("img-file") && this.hasAttribute("data-btn-type")) $wrap.addClass("f_img");
+				if (this.hasAttribute("data-btn_type")) $wrap.addClass("btn_type");
+				if (this.hasAttribute("img-file") && this.hasAttribute("data-btn_type")) $wrap.addClass("f_img");
 				fileChange($this);
 				common.hover(this);
 			});

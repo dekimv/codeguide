@@ -1,98 +1,50 @@
 <!-- S:CONTENT -->
-<div class="content page-guide">
+<div class="content page_guide">
 	<!-- S:페이지타이틀 -->
-	<div class="tit-page">
+	<div class="tit_page">
 		<h1>작업규칙</h1>
 	</div>
 	<!-- E:페이지타이틀 -->
 
 	<!-- S : 사용목적 -->
-	<h2 class="tit-guide toggle open" id="M1">작업의도</h2>
-	<ul class="desc-guide">
+	<h2 class="tit_guide toggle open" id="M1">작업의도</h2>
+	<ul class="desc_guide">
 		<li>통일성 : 작업자가 다수여도 한사람이 작성한 것처럼 보이는 코드를 지향한다.</li>
 		<li>실용성 : HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하되 추가적인 노력이 필요하지 않은 범위내에서 간결한 코드를 사용한다.</li>
 	</ul>
 	<!-- E : 사용목적 -->
 	<!-- S : 기본정책 -->
-	<h2 class="tit-guide toggle open" id="M3">기본정책</h2>
-	<h3 class="tit-guide" id="M4_4">크로스브라우징</h3>
-	<ul class="desc-guide">
+	<h2 class="tit_guide toggle open" id="M2">기본정책</h2>
+	<h3 class="tit_guide" id="M2_1">크로스브라우징</h3>
+	<ul class="desc_guide">
 		<li>마크업 브라우저 기준은 Chrome과 IE(Internet Explorer) 11+를 기준으로 한다. 단, 파이어폭스, 사파리, 오페라에서 UI가 정상적으로 보이는지 확인한다.</li>
 	</ul>
-	<h4 class="tit-sub1">PC 기준</h4>
-	<ul class="desc-guide">
+	<h4 class="tit_sub1">PC 기준</h4>
+	<ul class="desc_guide">
 		<li>사이트 유저가 설계사인 경우 모니터의 해상도는 1280 x 1024를 기준으로 하며 최적화 해상도는 브라우저 요소를 제외한 1280 x 854로 한다.</li>
 	</ul>
-	<h4 class="tit-sub1">Tablet 기준</h4>
-	<ul class="desc-guide">
+	<h4 class="tit_sub1">Tablet 기준</h4>
+	<ul class="desc_guide">
 		<li>iPad</li>
 	</ul>
-	<h4 class="tit-sub1">Mobile 기준</h4>
-	<ul class="desc-guide">
-		<li>iPhone6/7/8</li>	<h4 class="tit-sub1">이미지 예약어</h4>
-	<div class="tbl-data1 guide">
-		<table class="tb">
-			<caption>이미지 예약어</caption>
-			<colgroup>
-				<col span="2" style="width:25%;">
-				<col>
-			</colgroup>
-			<thead>
-			<tr>
-				<th>분류</th>
-				<th>파일명</th>
-				<th>설명</th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-				<td>버튼</td>
-				<td>btn_</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>아이콘</td>
-				<td>icon_</td>
-				<td>아이콘</td>
-			</tr>
-			<tr>
-				<td>화살표</td>
-				<td>arr_</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>배경</td>
-				<td>bg_</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>비주얼</td>
-				<td>visual_</td>
-				<td>디자인 요소가 다수 포함된 아이콘 혹은 이미지</td>
-			</tr>
-			<tr>
-				<td>임시</td>
-				<td>temp_</td>
-				<td>관리자나 사용자에 의해 등록될 이미지 영역으로 기본코딩을 위한 임시이미지</td>
-			</tr>
-			</tbody>
-		</table>
-	</div>
+	<h4 class="tit_sub1">Mobile 기준</h4>
+	<ul class="desc_guide">
+		<li>iPhone6/7/8</li>
 	</ul>
 	<!-- E : 기본정책 -->
 	<!-- S:네이밍룰 -->
-	<h2 class="tit-guide toggle open" id="M1">네이밍룰</h2>
-	<h3 class="tit-guide" id="M1_1">기본규칙</h3>
-	<ul class="desc-guide">
+	<h2 class="tit_guide toggle open" id="M3">네이밍룰</h2>
+	<h3 class="tit_guide" id="M3_1">기본규칙</h3>
+	<ul class="desc_guide">
 		<li>이름은 소문자, 숫자, 언더바(_)로 작성한다.</li>
 		<li>이름의 시작은 소문자로 시작한다.</li>
 		<li>style은 외부선언(css파일) 방식을 기본으로 하고, 특수한 상황에서만 내부선언, 인라인 선언 방식을 사용한다</li>
 	</ul>
-	<h3 class="tit-guide" id="M1_2">레이아웃 작성규칙</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M3_2">레이아웃 작성규칙</h3>
+	<ul class="desc_guide">
 		<li>레이아웃을 구성하는 요소(영역별 최상위)에는 id값으로 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -146,10 +98,10 @@
 	</div>
 	<span class="ex">그림1) 레이아웃 구조</span><br>
 	<img src="assets/img/layout.png" alt="레이아웃 구조" />
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>레이어팝업의 레이아웃을 구성하는 요소(영역별 최상위)에는 <span class="accent">modal</span>로 시작하는 id값으로 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -181,10 +133,10 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>윈도우팝업 레이아웃을 구성하는 요소(영역별 최상위)에는 <span class="accent">pop</span>으로 시작하는 id값으로 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -216,15 +168,15 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>레이아웃에 디자인 속성을 추가/변경하려면 id와 동일한 이름으로 class를 사용한다.</li>
 	</ul>
 	<img src="assets/img/layout02.png" alt="레이아웃영역 class선언" />
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>컨텐츠 영역에는 페이지별 유니크한 클래스명을 작성해준다.</li>
 	</ul>
 	<span class="ex">예) 상담목록</span>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -235,7 +187,7 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;div id="contents" class="cnsl_lst"&gt;&lt;/div&gt;
 	</code>
@@ -246,15 +198,15 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide" id="M1_3">클래스 작성규칙</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M3_3">클래스 작성규칙</h3>
+	<ul class="desc_guide">
 		<li></li>
 	</ul>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>이름은 가시적으로 이해할 수 있도록 작성한다.</li>
 		<li>이름은 두 단어의 조합을 언더바(_)로 구분하여 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -270,10 +222,10 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>개체형태 중 아래의 경우의 한해 축약어로 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -349,15 +301,15 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>기타 다른 개체의 이름은 축약하지 않고 작성한다.</li>
 	</ul>
 
-	<h3 class="tit-guide" id="M1_4">요소 클래스 작성규칙</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M3_4">요소 클래스 작성규칙</h3>
+	<ul class="desc_guide">
 		<li>Element(요소)에 class사용시 아래의 경우의 한해 축약어로 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -421,11 +373,11 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>모든 요소에는 class명을 반드시 작성한다. <span class="accent">단, 종속적인 구조</span>를 갖는 요소에는 예외로 한다.</li>
 	</ul>
 	<span class="ex">예) 종속적인 요소 : ul, ol, li | table, thead, tbody, tfoot, tr, th, td | dl dt dd | fildset, legend 등</span>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -436,7 +388,7 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;ul&gt;
 		&lt;li&gt;&lt;/li&gt;
@@ -445,7 +397,7 @@
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;ul class="info_bx"&gt;
 		&lt;li&gt;&lt;/li&gt;
@@ -453,7 +405,7 @@
 	</code>
 </pre>
 	<br>or<br><br>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;ul class="info_bx"&gt;
 		&lt;li class="info_txt"&gt;&lt;/li&gt;
@@ -467,11 +419,11 @@
 		</table>
 	</div>
 
-	<h3 class="tit-guide" id="M1_5">단위</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M3_5">단위</h3>
+	<ul class="desc_guide">
 		<li>기본 단위는 <span class="accent">rem</span>으로 사용한다. px단위로 수치값을 가시화하기 위해 <span class="accent">html에 font-size:10px</span>로 작성 후 사용한다.</li>
 	</ul>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* reset.css */
 	html{font-size:10px;}
@@ -479,21 +431,21 @@
 	div{font-size:1.2rem;} /* font-size:12px; 와 동일 */
 	</code>
 </pre>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>background나 백분율로 처리해야 하는 경우 <span class="accent">%</span>를 사용할 수 있다.</li>
 		<li>레이아웃 스타일 조정에 한해 <span class="accent">vw, vh</span>를 사용할 수 있다.</li>
 	</ul>
 	<!-- E:네이밍룰 -->
 
 	<!-- S:HTML 작성규칙 -->
-	<h2 class="tit-guide toggle open" id="M2">HTML 작성규칙</h2>
-	<h3 class="tit-guide">HTML 작업정보 작성</h3>
-	<ul class="desc-guide">
+	<h2 class="tit_guide toggle open" id="M4">HTML 작성규칙</h2>
+	<h3 class="tit_guide" id="M4_1">HTML 작업정보 작성</h3>
+	<ul class="desc_guide">
 		<li>파일 최상단에 작업자의 영문 아이디와 페이지 위치, 파일 생성 날짜를 기입하여 작업자의 히스토리를 남겨 협업에 활용한다.</li>
 		<li>페이지, 윈도우팝업, 레이어팝업에는 각각 의미있는 페이지 고유의 클래스를 부여하여 개별적인 css 부여시 활용한다.</li>
 	</ul>
-	<div class="guide-code">
-<pre class="syntax brush-html">
+	<div class="guide_code">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;!------------------------------------
 
@@ -505,11 +457,11 @@
 	</code>
 </pre>
 	</div>
-	<h3 class="tit-guide" id="M2_2">문서형식</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M4_2">문서형식</h3>
+	<ul class="desc_guide">
 		<li>브라우저 Document Type은 HTML5 DOCTYPE으로 작성하고, 아래 html문서를 기본형식으로 갖는다.</li>
 	</ul>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;!DOCTYPE html&gt; &lt;!-- HTML5 DOCTYPE --&gt;
 	&lt;html lang="ko"&gt; &lt;!-- lang 속성을 반드시 명시 --&gt;
@@ -526,12 +478,12 @@
 	&lt;/html&gt;
 	</code>
 </pre>
-	<!-- <h3 class="tit-guide">파일의 경로</h3>
-	<ul class="desc-guide">
+	<!-- <h3 class="tit_guide">파일의 경로</h3>
+	<ul class="desc_guide">
 		<li>개발팀과 협업을 고려하여 절대경로로 작업한다.</li>
 	</ul>
-	<div class="guide-code">
-<pre class="syntax brush-html">
+	<div class="guide_code">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;!-- css --&gt;
 	&lt;link rel="stylesheet" href="/assets/css/custom.css"&gt;
@@ -544,14 +496,14 @@
 	</code>
 </pre>
 	</div> -->
-	<h3 class="tit-guide" id="M2_1">기본규칙</h3>
-	<ul class="desc-guide">
-		<li>들여쓰기는 Tab(space2)문자를 사용한다.</li>
+	<h3 class="tit_guide" id="M4_3">기본규칙</h3>
+	<ul class="desc_guide">
+		<li>마크업의 중첩이 깊어질수록 자식요소의 들여쓰기는 Tab(space 2칸)으로 설정한다.</li>
 		<li>태그 및 속성은 소문자로 작성한다.</li>
 		<li>속성을 정의할 경우에는 <span class="accent">""(큰 따옴표)</span>를 사용한다.</li>
 		<li>ID값은 카멜표기법을 사용한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -562,14 +514,14 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;input type="text" id="female_name"&gt;
 	</code>
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;input type="text" id="femaleName"&gt;
 	</code>
@@ -579,195 +531,227 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide">태그 닫기</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M4_4">태그 닫기</h3>
+	<ul class="desc_guide">
 		<li>닫는 태그가 선택적이라도 생략하지 않는다. ( 예: 	&lt;li&gt;&lt;/li&gt;, 	&lt;body&gt;&lt;/body&gt; )</li>
 		<li>단일 태그에서는 슬래시(/)를 생략한다.</li>
 	</ul>
-	<div class="guide-code">
-<pre class="syntax brush-html">
+	<h3 class="tit_guide" id="M4_5">들여쓰기 예외</h3>
+	<ul class="desc_guide">
+		<li>&lt;html&gt;의 자식 요소인 &lt;head&gt;, &lt;body&gt;</li>
+		<li>&lt;body&gt;의 자식 요소</li>
+	</ul>
+	<div class="guide_code">
+<pre class="syntax brush_html">
 	<code class="html">
+	&lt;!doctype html&gt;
+	&lt;html lang="ko"&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
 	&lt;body&gt;
-		&lt;img src="logo.png" alt="Lezhin"&gt;
-		&lt;br&gt;
-
-		&lt;ul&gt;
-			&lt;li&gt;생명보험&lt;/li&gt;
-			&lt;li&gt;손해보험&lt;/li&gt;
-		&lt;/ul&gt;
+	&lt;div id="wrapper"&gt;
+	&lt;/div&gt;
 	&lt;/body&gt;
+	&lt;/html&gt;
 	</code>
 </pre>
 	</div>
-<h3 class="tit-guide">구조, 표현, 동작의 분리</h3>
-<ul class="desc-guide">
-	<li>문서의 구조(HTML)와 표현(CSS), 동작(script) 언어를 본래의 목적에 맞게 최대한 분리한다. 단 스타일 제어가 어려운 엘리먼트는 예외로 한다.</li>
-</ul>
-<h3 class="tit-guide">스타일 제어가 어려운 엘리먼트</h3>
-<ul class="desc-guide">
-	<li>자식 엘리먼트 태그가 한정적이거나(ex. table) 스타일 제어에 한계를 가진 엘리먼트(ex. select)가 컴포넌트의 루트 역할로 쓰일 땐 나중에 발생할 유지보수를 고려하여 엘리먼트로 감싸는 것을 권장한다.</li>
-	<li>input[type="text"], select 엘리먼트의 경우 너비의 고정폭 지정을 허용한다.</li>
-	<li>테이블 셀의 경우 다양한 너비의 고정폭을 지닐 수 있는데 이것을 모두 CSS로 지정하는 것은 기대했던 효과에 대한 이점이 없으므로 예외의 경우를 허용한다.</li>
-	<li>회원가입 폼의 입력 필드처럼 너비, 높이가 유동적이라면 불필요한 클래스 생성을 막기 위해 인라인 스타일로 제어한다.</li>
-</ul>
-<div class="guide-code">
-<pre class="syntax brush-html">
-<code class="html">
-&lt;!-- Bad --&gt;
-&lt;input type="text" class="input input--width-120"&gt;
-&lt;input type="text" class="input input--width-180"&gt;
-&lt;!-- Good --&gt;
-&lt;input type="text" class="input" style="width:120px"&gt;
-&lt;input type="text" class="input" style="width:180px"&gt;
-</code>
+	<ul class="desc_guide">
+		<li>&lt;table&gt;의 자식 요소</li>
+	</ul>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">
+	&lt;table&gt;
+	&lt;caption&gt;...&lt;/caption&gt;
+	&lt;colgroup&gt;
+		&lt;col&gt;
+	&lt;/colgroup&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;...&lt;/th&gt;
+			&lt;th&gt;...&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;...&lt;/td&gt;
+			&lt;td&gt;...&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+	&lt;/table&gt;
+	</code>
 </pre>
-</div>
-<h3 class="tit-guide">table 엘리먼트 사용 방법</h3>
-<ul class="desc-guide">
-	<li>table 엘리먼트의 border 값은 클래스를 지정하여 사용한다.</li>
-</ul>
-<h3 class="tit-guide">엘리먼트의 속성 지정 순서</h3>
-<ul class="desc-guide">
-	<li>엘리먼트의 기본 속성을 우선 지정한다.</li>
-	<li>선택자로 사용하는 id, class 속성을 엘리먼트의 기본 속성 다음으로 선언한다.</li>
-	<li>콘텐츠를 설명하는 alt, title 속성 그리고 예외로 지정하는 style은 가장 뒤에 선언한다.</li>
-</ul>
-<h4 class="tit-sub1">A 엘리먼트</h4>
-<div class="guide-code">
-<pre class="syntax brush-html">
-<code class="html">
-&lt;a href="#" title="새창" target="_blank"&gt;인쇄하기&lt;/a&gt;
-</code>
+	</div>
+	<h3 class="tit_guide" id="M4_6">구조, 표현, 동작의 분리</h3>
+	<ul class="desc_guide">
+		<li>문서의 구조(HTML)와 표현(CSS), 동작(script) 언어를 본래의 목적에 맞게 최대한 분리한다. 단 스타일 제어가 어려운 엘리먼트는 예외로 한다.</li>
+	</ul>
+	<h3 class="tit_guide" id="M4_7">스타일 제어가 어려운 엘리먼트</h3>
+	<ul class="desc_guide">
+		<li>자식 엘리먼트 태그가 한정적이거나(ex. table) 스타일 제어에 한계를 가진 엘리먼트(ex. select)가 컴포넌트의 루트 역할로 쓰일 땐 나중에 발생할 유지보수를 고려하여 엘리먼트로 감싸는 것을 권장한다.</li>
+		<li>input[type="text"], select 엘리먼트의 경우 너비의 고정폭 지정을 허용한다.</li>
+		<li>테이블 셀의 경우 다양한 너비의 고정폭을 지닐 수 있는데 이것을 모두 CSS로 지정하는 것은 기대했던 효과에 대한 이점이 없으므로 예외의 경우를 허용한다.</li>
+		<li>회원가입 폼의 입력 필드처럼 너비, 높이가 유동적이라면 불필요한 클래스 생성을 막기 위해 인라인 스타일로 제어한다.</li>
+	</ul>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">
+	&lt;!-- Bad --&gt;
+	&lt;input type="text" class="ip_txt ip_txt_width120"&gt;
+	&lt;input type="text" class="ip_txt ip_txt_width180"&gt;
+	&lt;!-- Good --&gt;
+	&lt;input type="text" class="ip_txt" style="width:120px"&gt;
+	&lt;input type="text" class="ip_txt" style="width:180px"&gt;
+	</code>
 </pre>
-</div>
-<ul class="desc-guide">
-	<li><em>href 속성의 값은 #</em>으로 한다. 앵커 기능이 있다면 해당 엘리먼트의 id값을 작성한다.</li>
-	<li>링크의 목표가 명확하지 않은 경우 title 속성의 값으로 부가적인 설명을 제공한다.</li>
-	<li>다운로드 : [title="파일명+파일확장자 다운로드"]</li>
-</ul>
-<h4 class="tit-sub1">Img 엘리먼트</h4>
-<div class="guide-code">
-<pre class="syntax brush-html">
-<code class="html">
-&lt;img src="img.gif" alt="대체텍스트"&gt;
-</code>
+	</div>
+	<h3 class="tit_guide" id="M4_8">table 엘리먼트 사용 방법</h3>
+	<ul class="desc_guide">
+		<li>table 엘리먼트의 border 값은 클래스를 지정하여 사용한다.</li>
+	</ul>
+	<h3 class="tit_guide" id="M4_9">엘리먼트의 속성 지정 순서</h3>
+	<ul class="desc_guide">
+		<li>엘리먼트의 기본 속성을 우선 지정한다.</li>
+		<li>선택자로 사용하는 id, class 속성을 엘리먼트의 기본 속성 다음으로 선언한다.</li>
+		<li>콘텐츠를 설명하는 alt, title 속성 그리고 예외로 지정하는 style은 가장 뒤에 선언한다.</li>
+	</ul>
+	<h4 class="tit_sub1">A 엘리먼트</h4>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">
+	&lt;a href="#" target="_blank"&gt;인쇄하기&lt;/a&gt;
+	</code>
 </pre>
-</div>
-<ul class="desc-guide">
-	<li>유지보수의 편의성을 위하여 width, height 속성은 사용하지 않는다.</li>
-	<li>이미지 맵 사용을 지양한다.</li>
-	<li>사이트 유저가 외부 유저일 경우 대체 텍스트를 기입한다.</li>
-</ul>
-<h4 class="tit-sub1">모바일 환경에서의 Input 엘리먼트</h4>
-<ul class="desc-guide">
-	<li>모바일 환경일 경우 title은 사용하지 않는다</li>
-	<li>type 속성을 적극적으로 사용하여 사용자에게 보다 친화적인 양식을 제공한다.</li>
-	<ol class="desc-guide-num">
-		<li>일반 : type="text"</li>
-		<li>이메일 : type="email"</li>
-		<li>검색 : type="search"</li>
-		<li>인터넷 주소 : type="url"</li>
-		<li>숫자 : type="number"</li>
-		<li>전화번호 : type="tel"</li>
-	</ol>
-</ul>
-<h4 class="tit-sub1">Textarea 엘리먼트</h4>
-<ul class="desc-guide">
-	<li>CSS를 정상적으로 불러오지 못하는 상황에서도 사용에 문제가 없도록 cols, rows의 애트리뷰트값은 각각 최소 30, 5 이상이 되도록 선언한다.</li>
-</ul>
-<div class="guide-code">
-<pre class="syntax brush-html">
-<code class="html">
-&lt;textarea cols="30" rows="5"&gt;...&lt;/textarea&gt;
-</code>
+	</div>
+	<ul class="desc_guide">
+		<li><em>href 속성의 값은 #</em>으로 한다. 앵커 기능이 있다면 해당 엘리먼트의 id값을 작성한다.</li>
+		<li>링크의 목표가 명확하지 않은 경우 title 속성의 값으로 부가적인 설명을 제공한다.</li>
+		<li>다운로드 : [title="파일명+파일확장자 다운로드"]</li>
+	</ul>
+	<h4 class="tit_sub1">Img 엘리먼트</h4>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">
+	&lt;img src="img.gif" alt="대체텍스트"&gt;
+	</code>
 </pre>
-</div>
-<h4 class="tit-sub1">Button 엘리먼트</h4>
-<ul class="desc-guide">
-	<li>버튼의 type은 명시해준다.</li>
-</ul>
-<div class="guide-code">
-<pre class="syntax brush-html">
-<code class="html">&lt;button type="button"&gt;열기&lt;/button&gt;
-&lt;button type="submit"&gt;전송&lt;/button&gt;
-</code>
+	</div>
+	<ul class="desc_guide">
+		<li>유지보수의 편의성을 위하여 width, height 속성은 사용하지 않는다.</li>
+		<li>이미지 맵 사용을 지양한다.</li>
+		<li>사이트 유저가 외부 유저일 경우 대체 텍스트를 기입한다.</li>
+	</ul>
+	<h4 class="tit_sub1">모바일 환경에서의 Input 엘리먼트</h4>
+	<ul class="desc_guide">
+		<li>모바일 환경일 경우 title은 사용하지 않는다</li>
+		<li>type 속성을 적극적으로 사용하여 사용자에게 보다 친화적인 양식을 제공한다.</li>
+		<ol class="desc_guide_num">
+			<li>일반 : type="text"</li>
+			<li>이메일 : type="email"</li>
+			<li>검색 : type="search"</li>
+			<li>인터넷 주소 : type="url"</li>
+			<li>숫자 : type="number"</li>
+			<li>전화번호 : type="tel"</li>
+		</ol>
+	</ul>
+	<h4 class="tit_sub1">Textarea 엘리먼트</h4>
+	<ul class="desc_guide">
+		<li>CSS를 정상적으로 불러오지 못하는 상황에서도 사용에 문제가 없도록 cols, rows의 애트리뷰트값은 각각 최소 30, 5 이상이 되도록 선언한다.</li>
+	</ul>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">
+	&lt;textarea cols="30" rows="5"&gt;...&lt;/textarea&gt;
+	</code>
 </pre>
-</div>
-<h4 class="tit-sub1">Iframe 엘리먼트</h4>
-<div class="guide-code">
-<pre class="syntax brush-html">
-<code class="html">
-&lt;iframe src="about:blank" title="빈프레임"&gt;&lt;/iframe&gt;
-</code>
+	</div>
+	<h4 class="tit_sub1">Button 엘리먼트</h4>
+	<ul class="desc_guide">
+		<li>버튼의 type은 명시해준다.</li>
+	</ul>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">&lt;button type="button"&gt;열기&lt;/button&gt;
+	&lt;button type="submit"&gt;전송&lt;/button&gt;
+	</code>
 </pre>
-</div>
-<ul class="desc-guide">
-	<li>iframe 사용은 페이지 성능에 영향을 주므로 가급적 사용하지 않는다. 유투브와 같은 동영상컨텐츠에 한하여 사용한다.</li>
-	<li>align, frameborder, longdesc, marginheight, marginwidth, scrolling등의 속성은 html5에서 지원되지 않으므로 사용시 참고한다.
-	</li>
-</ul>
-<p class="txt-guide1"> * 참고 : <a href="http://www.w3schools.com/tags/tag_iframe.asp" target="_blank" target="_blank" class="link">w3schools > 태그</a></p>
-<h3 class="tit-guide">애니메이션</h3>
-<ul class="desc-guide">
-	<li>동작 효과는 콘텐츠를 자연스럽게 만들어주지만, 장시간 컴퓨터를 사용하는 경우 눈에 쉽게 피로감을 주므로 요건에 맞게 사용한다.</li>
-</ul>
-<h3 class="tit-guide">Heading</h3>
-<ul class="desc-guide">
-	<li>섹셔닝 요소와 헤딩 요소를 이용하여 문서 개요를 논리적으로 구성한다.</li>
-	<li>섹셔닝 요소(section, article, nav, aside)에는 헤딩 요소를 명시적으로 사용한다.</li>
-	<li>명시적 헤딩 기법은 h1 요소를 한 페이지에 한 번 사용한다.</li>
-	<li>헤딩 요소만으로 문서 개요를 파악할 수 있어야 한다.</li>
-</ul>
-	<h3 class="tit-guide" id="M2_3">Boolean 정의</h3>
-	<ul class="desc-guide">
+	</div>
+	<h4 class="tit_sub1">Iframe 엘리먼트</h4>
+	<div class="guide_code">
+<pre class="syntax brush_html">
+	<code class="html">
+	&lt;iframe src="about:blank" title="빈프레임"&gt;&lt;/iframe&gt;
+	</code>
+</pre>
+	</div>
+	<ul class="desc_guide">
+		<li>iframe 사용은 페이지 성능에 영향을 주므로 가급적 사용하지 않는다. 유투브와 같은 동영상컨텐츠에 한하여 사용한다.</li>
+		<li>align, frameborder, longdesc, marginheight, marginwidth, scrolling등의 속성은 html5에서 지원되지 않으므로 사용시 참고한다.
+		</li>
+	</ul>
+	<p class="txt_guide1"> * 참고 : <a href="http://www.w3schools.com/tags/tag_iframe.asp" target="_blank" target="_blank" class="link">w3schools > 태그</a></p>
+	<h3 class="tit_guide" id="M4_10">애니메이션</h3>
+	<ul class="desc_guide">
+		<li>동작 효과는 콘텐츠를 자연스럽게 만들어주지만, 장시간 컴퓨터를 사용하는 경우 눈에 쉽게 피로감을 주므로 요건에 맞게 사용한다.</li>
+	</ul>
+	<h3 class="tit_guide" id="M4_11">Heading</h3>
+	<ul class="desc_guide">
+		<li>섹셔닝 요소와 헤딩 요소를 이용하여 문서 개요를 논리적으로 구성한다.</li>
+		<li>섹셔닝 요소(section, article, nav, aside)에는 헤딩 요소를 명시적으로 사용한다.</li>
+		<li>명시적 헤딩 기법은 h1 요소를 한 페이지에 한 번 사용한다.</li>
+		<li>헤딩 요소만으로 문서 개요를 파악할 수 있어야 한다.</li>
+	</ul>
+	<h3 class="tit_guide" id="M4_12">Boolean 정의</h3>
+	<ul class="desc_guide">
 		<li>Boolean 속성은 값을 따로 명시하지 않는다.</li>
 	</ul>
-<div class="tbl-data1 guide">
-	<table class="tb">
-		<thead>
-			<tr>
-				<th>잘못된 예</th>
-				<th>올바른 예</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>&lt;input type="text" disabled="true"></td>
-				<td>&lt;input type="text" <b>disabled</b>></td>
-			</tr>
-			<tr>
-				<td>&lt;input type="checkbox" checked="true"></td>
-				<td>&lt;input type="text" <b>checked</b>></td>
-			</tr>
-			<tr>
-				<td>
-					&lt;select>
-						&lt;option value="1" selected="true">1&lt;/option>
-					&lt;/select>
-				</td>
-				<td>
-					&lt;select>
-					&lt;option value="1" <b>selected</b>>1&lt;/option>
-					&lt;/select>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-	<h3 class="tit-guide" id="M2_4">목적에 맞는 HTML 태그 사용</h3>
-	<ul class="desc-guide">
+	<div class="tb_data1 guide">
+		<table class="tb">
+			<thead>
+				<tr>
+					<th>잘못된 예</th>
+					<th>올바른 예</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>&lt;input type="text" disabled="true"></td>
+					<td>&lt;input type="text" <b>disabled</b>></td>
+				</tr>
+				<tr>
+					<td>&lt;input type="checkbox" checked="true"></td>
+					<td>&lt;input type="text" <b>checked</b>></td>
+				</tr>
+				<tr>
+					<td>
+						&lt;select>
+							&lt;option value="1" selected="true">1&lt;/option>
+						&lt;/select>
+					</td>
+					<td>
+						&lt;select>
+						&lt;option value="1" <b>selected</b>>1&lt;/option>
+						&lt;/select>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<h3 class="tit_guide" id="M4_13">목적에 맞는 HTML 태그 사용</h3>
+	<ul class="desc_guide">
 		<li>html은 의미에 맞는 태그(Tag)로 시멘틱 마크업(Semantic Markup)을 한다.</li>
 	</ul>
-	<p class="txt-guide1"> * 참고 : <a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%A7%A8%ED%8B%B1_%EC%9B%B9" target="_blank" class="link">시맨틱_웹</a></p>
-	<h3 class="tit-guide" id="M2_5">엔티티 사용</h3>
-	<ul class="desc-guide">
+	<p class="txt_guide1"> * 참고 : <a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%A7%A8%ED%8B%B1_%EC%9B%B9" target="_blank" class="link">시맨틱_웹</a></p>
+	<h3 class="tit_guide" id="M4_14">엔티티 사용</h3>
+	<ul class="desc_guide">
 		<li><span class="accent">&lt;, &gt;, &amp;</span>에 한해 엔티티 이름<span class="accent">(&amp;lt;, &amp;gt;, &amp;amp;)</span>을 사용한다. 기타 다른 특수문자는 엔티티를 사용하지 않는다.</li>
 	</ul>
-	<h3 class="tit-guide" id="M2_6">주석</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M4_15">주석</h3>
+	<ul class="desc_guide">
 		<li>주석의 시작은 <span class="accent">S:</span>로 종료는 <span class="accent">E:</span>으로 시작하고 주석내용은 영문일 경우 대문자를 사용한다.</li>
 	</ul>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;body&gt;
 	&lt;!-- S:WRAP --&gt;
@@ -794,28 +778,28 @@
 	</code>
 </pre>
 	<br>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>UI에서 개발단에 전달 또는 요청해야 하는 성격의 주석은 &lt;!-- S:[전달 | 요청] 이름 날짜 : 전달 내용 -->&lt;!-- E:[전달 | 요청] 이름 날짜 : 전달 내용 --></li>
 	</ul>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;!-- [요청] 박은정 2022.04.18 : 개발작업 시 삭제 해주세요. --&gt;
 	&lt;div class="test"&gt;테스트 영역&lt;/div&gt;
 	</code>
 </pre>
 	<br>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;!-- S:[요청] 박은정 2022.04.18 : 상품 케이스 추가 건 --&gt;
 	&lt;div&gt; class="test"&gt;테스트 영역&lt;/div&gt;
 	&lt;!-- E:[요청] 박은정 2022.04.18 : 상품 케이스 추가 건 --&gt;
 	</code>
 </pre>
-	<h3 class="tit-guide" id="M2_7">자바스크립트 작성</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M4_16">자바스크립트 작성</h3>
+	<ul class="desc_guide">
 		<li>자바스크립트는 html 요소에 직접 이벤트 선언하는 방식은 지양한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -826,20 +810,20 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;button type="button" onclick="clickHandler"&gt;Click&lt;/button&gt;
 	</code>
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;button type="button" id="click_btn"&gt;Click&lt;/button&gt;
 	</code>
 </pre>
 	<br>
-<pre class="syntax brush-js">
+<pre class="syntax brush_js">
 	<code class="js">
 	let btn = document.querySelector("#click_btn");
 	btn.addEventListener("click",function(){
@@ -852,11 +836,11 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide" id="M2_8">외부파일 정의</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M4_17">외부파일 정의</h3>
+	<ul class="desc_guide">
 		<li><span class="accent">&lt;link></span>와 <span class="accent">&lt;scirpt></span>에 type을 정의하지 않는다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -867,7 +851,7 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;link type="text/css" rel="stylesheet" href="./css/reset.css"&gt;
 	&lt;script type="text/javascript" src=".common/js/ui.js"&gt;&lt;/script&gt;
@@ -875,7 +859,7 @@
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;link rel="stylesheet" href="./css/reset.css"&gt;
 	&lt;script src=".common/js/ui.js"&gt;&lt;/script&gt;
@@ -886,11 +870,11 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>css파일은 상단 &lt;head>&lt;/head>안에 작성</li>
 		<li>javascript파일은 하단 &lt;/body>바로 위에 작성한다.</li>
 	</ul>
-<pre class="syntax brush-html">
+<pre class="syntax brush_html">
 	<code class="html">
 	&lt;!DOCTYPE html&gt;
 	&lt;html lang="ko"&gt;
@@ -911,10 +895,10 @@
 	<!-- E:HTML 작성규칙 -->
 
 	<!-- S:CSS작성규칙 -->
-	<h2 class="tit-guide toggle open" id="M3">CSS작성규칙</h2>
-	<h3 class="tit-guide">CSS 작업정보 작성</h3>
-	<div class="guide-code">
-<pre class="syntax brush-css">
+	<h2 class="tit_guide toggle open" id="M5">CSS작성규칙</h2>
+	<h3 class="tit_guide" id="M5_1">CSS 작업정보 작성</h3>
+	<div class="guide_code">
+<pre class="syntax brush_css">
 	<code class="css">
 	@charset "utf-8";
 	/* -----------------------------
@@ -937,14 +921,14 @@
 	</code>
 </pre>
 	</div>
-	<h3 class="tit-guide" id="M3_1">기본규칙</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_2">기본규칙</h3>
+	<ul class="desc_guide">
 		<li>문서의 첫 줄에 HTML과 동일한 인코딩을 선언한다.</li>
 	</ul>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>모든 속성은 영문 소문자로만 작성한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -960,10 +944,10 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>공백이 포함된 폰트명, 한글 폰트명, 문자열 데이터 타입, filter 속성의 파라미터값은 작은 따옴표(<span class="accent">''</span>)로 감싸며,<br>@charset선언시 또는 속성으로 선택자를 명시할 경우에만 큰 따옴표(<span class="accent">""</span>)로 감싸고 그 외에는 따옴표를 사용하지 않는다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -995,17 +979,17 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>선택자 깊이는 4단계 이상 선언하지 않는다. 단, 부모 선택자를 표시해야 할 경우 <span class="accent">꼭 필요한 경우</span>에만 작성한다.</li>
 		<li>다중 선택자(Multi Class)를 사용할 경우 3단계 이상 선언하지 않는다.</li>
 		<li>레이아웃의 경우 flex속성을 사용하고, 여의치 않은 상황에서만 float속성을 사용한다.</li>
 	</ul>
-	<h3 class="tit-guide" id="M3_2">공백</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_3">공백</h3>
+	<ul class="desc_guide">
 		<li>들여쓰기는 Tab(space2)문자를 사용한다.</li>
 		<li>style 작성시 <span class="accent">{} 닫힘괄호</span>를 기준으로 개행처리 한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1016,14 +1000,14 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	.header_wrap{padding:1rem;} .header_wrap .logo{color:#fff;font-size:2.5rem;}
 	</code>
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	.header_wrap{padding:1rem;}
 	.header_wrap .logo{color:#fff;font-size:2.5rem;}
@@ -1034,10 +1018,10 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>부모와 자식을 구분하는 경우를 제외하고 모든 개행과 공백을 제거한다. <span class="accent">단, 다중 선택자를 선언할 경우 ,(쉼표)를 기준으로 개행</span>처리할 수 있다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1048,7 +1032,7 @@
 			<tbody>
 				<tr>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	.header_wrap {padding : 1rem;}
 	.header_wrap .logo{color : #fff; font-size : 2.5rem;}
@@ -1056,7 +1040,7 @@
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* 선택자와 대괄호 사이 */
 	.header_wrap{padding:1rem;}
@@ -1068,7 +1052,7 @@
 				</tr>
 				<tr>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	.header_wrap {
 	padding:1rem;
@@ -1082,7 +1066,7 @@
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	.header_wrap{padding:1rem;}
 	.header_wrap .logo,
@@ -1090,7 +1074,7 @@
 	</code>
 </pre>
 	or
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	.header_wrap{padding:1rem;}
 	.header_wrap .logo, .header_wrap .tit{color:#fff;font-size:2.5rem;}
@@ -1100,14 +1084,14 @@
 				</tr>
 				<tr>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	a, button, label{outline:none;}
 	</code>
 </pre>
 					</td>
 					<td>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* 다중 선택자 사이 */
 	a,button,label{outline:none;}
@@ -1118,13 +1102,13 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide" id="M3_3">주석</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_4">주석</h3>
+	<ul class="desc_guide">
 		<li>큰 단락의 주석과 작은 단락의 주석을 작성해준다. 영문의 경우 큰 단락은 전체 대문자, 작은 단락은 단어의 첫번째 글자를 대문자로 작성한다. 작성방식은 아래와 같다.
 			<span class="ex">예) 큰 단락(별 다섯개, 개행, 영문대문자, 한글작성 가능)</span>
 		</li>
 	</ul>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	/*****
 
@@ -1133,21 +1117,21 @@
 	******/
 	</code>
 </pre>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>
 			<span class="ex">예) 큰 단락(별 다섯개, 개행, 영문대문자, 한글작성 가능)</span>
 		</li>
 	</ul>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* Table */
 	</code>
 </pre>
-	<h3 class="tit-guide" id="M3_4">빈줄</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_5">빈줄</h3>
+	<ul class="desc_guide">
 		<li>주석을 기준으로 <span class="accent">한 줄의 빈줄</span>을 넣어준다.</li>
 	</ul>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* Navigation */
 	.nav_wrap{padding:1.5rem;}
@@ -1166,11 +1150,11 @@
 	.rule_lst > li:before{display:inline-block;margin-right:0.5rem;content:"-";}
 	</code>
 </pre>
-	<h3 class="tit-guide" id="M3_5">폰트</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_6">폰트</h3>
+	<ul class="desc_guide">
 		<li>기본폰트는 맑은고딕으로 하되, 웹폰트를 우선 적용할 수 있다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1190,17 +1174,17 @@
 			</tbody>
 		</table>
 	</div>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>기본 단위는 rem을 기준으로 한다.</li>
 	</ul>
-	<p class="txt-guide1"> * 참고 : <a href="#M1_5" class="link">네이밍룰 > 단위</a></p>
-	<h3 class="tit-guide" id="M3_6">속성 작성 순서</h3>
-	<ul class="desc-guide">
+	<p class="txt_guide1"> * 참고 : <a href="#M1_5" class="link">네이밍룰 > 단위</a></p>
+	<h3 class="tit_guide" id="M5_7">속성 작성 순서</h3>
+	<ul class="desc_guide">
 		<li>속성을 작성할 경우 <span class="accent">노출여부, 위치</span>를 나타내는 속성을 맨 앞에 작성하고<br>
 			<span class="accent">크기, 여백</span>에 영향을 주는 속성은 다음으로,	<span class="accent">나머지</span>는 순서와 상관없이 마지막에 선언한다.
 		</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1230,35 +1214,35 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide" id="M3_6">세미콜론(;)</h3>
+	<h3 class="tit_guide" id="M5_8">세미콜론(;)</h3>
 	<p>마지막 선언된 속성에도 세미콜론(;)을 사용한다.</p>
-	<div class="guide-code">
-<pre class="syntax brush-css">
+	<div class="guide_code">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* 잘못된 예 */
-	.class-name {margin-left:0;padding-left:10px}
+	.class_name {margin-left:0;padding-left:10px}
 
 	/* 올바른 예 */
-	.class-name {margin-left:0;padding-left:10px;}
+	.class_name {margin-left:0;padding-left:10px;}
 	</code>
 </pre>
 	</div>
-	<h3 class="tit-guide">공통 선택자</h3>
+	<h3 class="tit_guide" id="M5_9">공통 선택자</h3>
 	<p>'*' 공통 선택자는 웹 페이지의 성능을 저하를 가져오기 때문에 가급적 사용하지 않는다.</p>
-	<div class="guide-code">
-<pre class="syntax brush-css">
+	<div class="guide_code">
+<pre class="syntax brush_css">
 	<code class="css">
 	/* 잘못된 예 */
 	* {margin:0;padding:0}
 	</code>
 </pre>
 	</div>
-	<h3 class="tit-guide" id="M3_7">축약 속성</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_10">축약 속성</h3>
+	<ul class="desc_guide">
 		<li>margin, padding 속성에 한해 개별 속성(*-top,*-right,*-bottom,*-left,)을 제한한다.</li>
 		<li>속기 작성방식 또한, 수치를 1개 또는 3개로 줄여 사용하지 않는다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1302,11 +1286,11 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide" id="M3_8">확장</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_11">확장</h3>
+	<ul class="desc_guide">
 		<li>의미는 같으나 style이 다를경우 확장방식을 사용한다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1329,8 +1313,8 @@
 			</tbody>
 		</table>
 	</div>
-	<h3 class="tit-guide" id="M3_8">파일 분기</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M5_12">파일 분기</h3>
+	<ul class="desc_guide">
 		<li>css파일은 관리의 효율성을 위해 분기하여 관리한다.</li>
 		<li>초기화를 위한 style은 <a href="/css/files/reset.css" target="_blank" class="link">reset.css</a>에 분기한다.</li>
 		<li>웹폰트를 사용할 경우 <a href="/css/files/font.css" target="_blank" class="link">font.css</a>에 분기한다.</li>
@@ -1340,14 +1324,14 @@
 	<!-- E:CSS작성규칙 -->
 
 	<!-- S:기타규칙 -->
-	<h2 class="tit-guide toggle open" id="M4">기타규칙</h2>
-	<h3 class="tit-guide" id="M4_1">폴더</h3>
-	<ul class="desc-guide">
+	<h2 class="tit_guide toggle open" id="M6">기타규칙</h2>
+	<h3 class="tit_guide" id="M6_1">폴더</h3>
+	<ul class="desc_guide">
 		<li>기본 폴더 구조는 다음 그림2와 같이 구성한다.</li>
 		<li>웹폰트를 사용할 경우, 폰트파일은 /css/font/ 폴더에 위치한다.</li>
 		<li>이미지는 각 특징에 따라 폴더에 위치한다. 필요시 구분이 되는 이름으로 폴더명을 추가 생성할 수 있다.</li>
 	</ul>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1381,30 +1365,30 @@
 	</div>
 	<span class="ex">그림2) 폴더구조</span><br>
 	<img src="assets/img/folder.gif" alt="폴더구조" />
-	<h3 class="tit-guide" id="M4_2">JAVASCRIPT 파일</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M6_2">JAVASCRIPT 파일</h3>
+	<ul class="desc_guide">
 		<li>퍼블리싱관련 javascript는 common/js/ui.js (인터렉션 포함)에 작성한다.</li>
 		<li>외부 라이브러리를 사용할 경우 라이브러리 이름의 폴더를 생성한 후 관련 js파일을 해당폴더에 위치한다.</li>
 	</ul>
 	<span class="ex">예) js파일생성 방식</span><br>
 	<img src="assets/img/files.gif" alt="파일구조" />
-	<h3 class="tit-guide" id="M4_3">이미지</h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M6_3">이미지</h3>
+	<ul class="desc_guide">
 		<li>이미지 확장자는 jpg, png, gif, svg를 사용할 수 있다.</li>
 		<li>이미지 확장자가 jpg나 png일 경우, 최적화 작업을 한다.</li>
 	</ul>
 	<span class="ex">최적화도구) <a href="https://tinypng.com/" class="link" taget="_blank">Tiny</a></span>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>svg 이미지 사용시, url 인코딩 방식으로 사용한다. 인코딩 방식 사용 구분은 그림은 동일하나 색상 변경이 있는 이미지에 한해 사용한다.</li>
 	</ul>
 	<span class="ex">인코딩도구) <a href="https://yoksel.github.io/url-encoder/" class="link" taget="_blank">url-encoder</a></span><br>
 	<span class="ex">예) url encoding 기법</span>
-<pre class="syntax brush-css">
+<pre class="syntax brush_css">
 	<code class="css">
 	background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3Cstyle%3E .cls-1,.cls-2%7Bfill:none%7D.cls-2%7Bstroke:%23c0c0c0;stroke-width:2px%7D %3C/style%3E%3C/defs%3E%3Cg %3E%3Cpath id='square' d='M0 0h32v32H0z' class='cls-1'/%3E%3Cg transform='translate(2 2)'%3E%3Cg class='cls-2'%3E%3Ccircle cx='11.5' cy='11.5' r='11.5'/%3E%3Ccircle cx='11.5' cy='11.5' r='10.5' class='cls-1'/%3E%3C/g%3E%3Cpath d='M0 0l8.824 8.824' class='cls-2' transform='translate(19.273 19.54)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A")'%3E%3Cg class='cls-2'%3E%3Ccircle cx='11.5' cy='11.5' r='11.5'/%3E%3Ccircle cx='11.5' cy='11.5' r='10.5' class='cls-1'/%3E%3C/g%3E%3Cpath d='M0 0l8.824 8.824' class='cls-2' transform='translate(19.273 19.54)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A) no-repeat 0 0;
 	</code>
 </pre>
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>자주 사용되는 공통이미지의 경우 sprite 기법을 사용한다.</li>
 		<li>sprite 이미지의 경우 파일명의 시작을 <span class="accent">sp_</span>로 한다.</li>
 		<li>sprite 기법으로 이미지 편집시, 그림간의 상하좌우 간격을 10px로 한다.</li>
@@ -1412,19 +1396,19 @@
 	</ul>
 	<span class="ex">예) sprite 기법</span><br>
 	<img src="assets/img/temp/sp_common.png" alt="sprite 이미지">
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>모바일에 사용되는 sprite 이미지의 사이즈는 짝수여야 하며, 최상단, 최좌측을 기준으로 그림과의 간격이 반드시 짝수여야 한다.</li>
 	</ul>
 	<span class="ex">예) 이미지사이트 : 320 * 218</span><br>
 	<img src="assets/img/temp/sp_common_m.png" alt="sprite 이미지">
-	<ul class="desc-guide">
+	<ul class="desc_guide">
 		<li>이미지명은 언더바(_)를 구분자로 작성할 수 있다. 단, 마지막 숫자에는 사용하지 않는다.</li>
 		<li>같은 이름의 형태를 갖는다면 숫자부분을 다음 순서의 숫자로 작성한다.</li>
 		<li>이미지명은 확장자와 상관없이 순차적으로 생성한다.</li>
 		<li>이미지 이름은 아래와 같은 순서와 규칙을 준수하여 작성한다(조합의 규칙은 해당사항이 없는 경우 생략이 가능하다).</li>
 	</ul>
 	<span class="accent">폴더명(+형태) + 방향 + 색상 + 숫자(두자리) + 상태</span>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1496,7 +1480,7 @@
 		</table>
 	</div>
 	<span class="ex">예) 이미지명 작성</span>
-	<div class="tbl-data1 guide">
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<thead>
 				<tr>
@@ -1520,8 +1504,8 @@
 			</tbody>
 		</table>
 	</div>
-	<h4 class="tit-sub1">이미지 예약어</h4>
-	<div class="tbl-data1 guide">
+	<h4 class="tit_sub1">이미지 예약어</h4>
+	<div class="tb_data1 guide">
 		<table class="tb">
 			<caption>이미지 예약어</caption>
 			<colgroup>
@@ -1572,13 +1556,13 @@
 	<!-- E:기타규칙 -->
 
 	<!-- S:VUE 규칙 -->
-	<!-- <h2 class="tit-guide toggle open" id="M5">VUE 규칙</h2>
-	<h3 class="tit-guide" id="M5_1"></h3>
-	<ul class="desc-guide">
+	<!-- <h2 class="tit_guide toggle open" id="M7">VUE 규칙</h2>
+	<h3 class="tit_guide" id="M7_1"></h3>
+	<ul class="desc_guide">
 		<li>구조</li>
 	</ul>
-	<h3 class="tit-guide" id="M5_2"></h3>
-	<ul class="desc-guide">
+	<h3 class="tit_guide" id="M7_2"></h3>
+	<ul class="desc_guide">
 		<li>컴포넌트명</li>
 	</ul> -->
 	<!-- E:VUE 규칙 -->

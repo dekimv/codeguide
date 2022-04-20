@@ -8,7 +8,7 @@
 		table {border-collapse:collapse;border-spacing:0;width:100%;min-width:1400px;font-size:13px;}
 		table td, th {border-collapse:collapse;line-height:1.8em;border-spacing:0;word-wrap:break-word;word-break:break-all;border:1px solid #ddd;padding:10px;}
 		table td a, th a {display:inline-block;}
-		table .tb-center {text-align:center;}
+		table .tb_center {text-align:center;}
 		 .bg1 {background:#efe8e8;}
 		 .bg2 {background:#f4f4ec;}
 
@@ -26,7 +26,7 @@
 		<li class="bg2"><a href="#mu04">기타</a></li>
 	</ul>
 </div>
-<div class="page-list">
+<div class="page_list">
 	<table>
 		<colgroup>
 			<col style="width:50px">
@@ -56,42 +56,42 @@
 		</thead>
 		<tbody>
 		<tr class="bg2" id="mu04">
-			<td class="tb-center">1</td>
-			<td class="tb-center">기타</td>
-			<td class="tb-center"></td>
+			<td class="tb_center">1</td>
+			<td class="tb_center">기타</td>
+			<td class="tb_center"></td>
 			<td>JS파일</td>
 			<td></td>
 			<td>custom.js</td>
 			<td></td>
-			<td class="tb-center">je0196</td>
-			<td class="tb-center">2022-05-01</td>
-			<td class="tb-center">2022-05-25</td>
+			<td class="tb_center">je0196</td>
+			<td class="tb_center">2022-05-01</td>
+			<td class="tb_center">2022-05-25</td>
 		</tr>
 		<tr class="bg2">
-			<td class="tb-center">2</td>
-			<td class="tb-center">기타</td>
-			<td class="tb-center"></td>
+			<td class="tb_center">2</td>
+			<td class="tb_center">기타</td>
+			<td class="tb_center"></td>
 			<td>CSS파일</td>
 			<td></td>
 			<td>custom.css</td>
 			<td></td>
-			<td class="tb-center">je0196</td>
-			<td class="tb-center">2022-05-01</td>
-			<td class="tb-center">2022-05-25</td>
+			<td class="tb_center">je0196</td>
+			<td class="tb_center">2022-05-01</td>
+			<td class="tb_center">2022-05-25</td>
 		</tr>
 		<tr class="bg1">
-			<td class="tb-center">4</td>
-			<td class="tb-center">공통</td>
-			<td class="tb-center"></td>
+			<td class="tb_center">4</td>
+			<td class="tb_center">공통</td>
+			<td class="tb_center"></td>
 			<td>COMING SOON</td>
 			<td></td>
 			<td>
 				<a href="pub/coming_soon.html" target="_blank">pub/coming_soon.html</a>
 			</td>
 			<td></td>
-			<td class="tb-center">je0109</td>
-			<td class="tb-center">2022-05-01</td>
-			<td class="tb-center">2022-05-11</td>
+			<td class="tb_center">je0109</td>
+			<td class="tb_center">2022-05-01</td>
+			<td class="tb_center">2022-05-11</td>
 		</tr>
 		</tbody>
 	</table>
@@ -102,7 +102,7 @@
 <script type="text/javascript">
 	$(function(){
 		var cc = 0;
-		$(".page-list table tr > td:first-child").each(function(i){
+		$(".page_list table tr > td:first-child").each(function(i){
 			$(this).text(i+1);
 		});
 	});
@@ -110,7 +110,7 @@
 		var defaults = {
 			jsonURL: ['pub/list/list_front.jsonp'],
 			jsonRoot: 'front',
-			wrap: '.page-list',
+			wrap: '.page_list',
 			depth: [],
 			depthCnt: 2,
 			idx: 1
@@ -196,20 +196,20 @@
 					content += '<tr class="bg1">';
 				}
 
-				content += '<td class="tb-center">' + (defaults.idx++) + '</td>';
+				content += '<td class="tb_center">' + (defaults.idx++) + '</td>';
 				for (var i = 0; i < defaults.depthCnt; i++) {
 					var d_content = defaults.depth[i] == null ? '' : defaults.depth[i];
 
 
-					content += '<td class="tb-center">' + d_content + '</td>';
+					content += '<td class="tb_center">' + d_content + '</td>';
 				}
 				content += '<td>' + data.pageName + '</td>';
 				content += '<td>' + data.pageId + '</td>';
 				content += '<td><a href=' + data.url + ' target="_blank">' + data.path + '</a></td>';
 				content += '<td>' + data.etc + '</td>';
-				content += '<td class="tb-center">' + data.name + '</td>';
-				content += '<td class="tb-center">' + data.date + '</td>';
-				content += '<td class="tb-center">' + data.endDate + '</td>';
+				content += '<td class="tb_center">' + data.name + '</td>';
+				content += '<td class="tb_center">' + data.date + '</td>';
+				content += '<td class="tb_center">' + data.endDate + '</td>';
 				content += '</tr>';
 				$(defaults.wrap + ' tbody').append(content);
 			}

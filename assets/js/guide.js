@@ -86,51 +86,51 @@ var ui;
 			레이아웃 : navAside
 		--------------------------------------------------------------------------------- */
 		navAside : function(){
-			var $aside = $('#aside');
-			var $aside_area = $('#aside .wrap-aside');
-			var $aside_snb = $aside.find('.nav-snb');
-			var $aside_ctrl = $aside.find('.area-control a');
+			var $aside = $('#nav');
+			var $aside_area = $('#nav .wrap_nav');
+			var $aside_snb = $aside.find('.nav_snb');
+			var $aside_ctrl = $aside.find('.area_control a');
 
 			//좌측영역 영역 디스플레이
-			$(document).on("click", '#aside .area-control a', function(e) {
+			$(document).on("click", '#nav .area_control a', function(e) {
 				e.preventDefault();
-				if(!$('#wrap').hasClass('open-aside')) $('#wrap').addClass('open-aside');
-				else $('#wrap').removeClass('open-aside');
+				if(!$('#wrap').hasClass('open_nav')) $('#wrap').addClass('open_nav');
+				else $('#wrap').removeClass('open_nav');
 			});
 
 			//화면해상도 변경
-			$(window).on('load resize',function(e){
-				chkWinSize();
-			});
+			// $(window).on('load resize',function(e){
+			// 	chkWinSize();
+			// });
 
 			function chkWinSize(){
 				if($(window).width()>1400){
-					$('#wrap').addClass('open-aside').removeClass('minwidth');
+					$('#wrap').addClass('open_nav').removeClass('minwidth');
 				}else{
-					$('#wrap').removeClass('open-aside').addClass('minwidth');
+					$('#wrap').removeClass('open_nav').addClass('minwidth');
 				}
 			}
 
 
 			//snb 토글
-			$(document).on("click", '.nav-snb a', function(e) {
+			$(document).on("click", '.nav_snb a', function(e) {
 				if($(this).next('ul').length){
 					if(!$(this).parent('li').hasClass('open')) $(this).parent('li').addClass('open');
 					else $(this).parent('li').removeClass('open');
 				}else{
-					$('.nav-snb li').removeClass('active');
+					$('.nav_snb li').removeClass('active');
 					$(this).parent('li').addClass('active');
 				}
 			});
 
-			$(document).on('click','.nav-snb a',function(){
+			$(document).on('click','.nav_snb a',function(){
 				var _target = $(this).attr('data-target');
-				$('html, body').animate({scrollTop : $('#'+_target).offset().top} , 300);
+				$('html, body').animate({scrollTop : $('#'+_target).offset().top - 50} , 300);
 				return false;
 			});
 
 			//좌측영역 스크롤디자인
-			//$aside_area.mCustomScrollbar({theme:"minimal-dark"});
+			// $aside_area.mCustomScrollbar({theme:"minimal-dark"});
 		},
 
 
